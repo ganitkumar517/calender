@@ -1,12 +1,18 @@
 *{
     padding: 0;
     margin: 0;
+  
 }
-
+html{
+    height: 100%;
+    background-position: center;
+    background-size: cover; 
+    background:linear-gradient(orange, white,green); 
+    background-repeat: no-repeat;
+}
 body{
     place-items: center;
     font-family: var(--font-family);
-    background:linear-gradient(orange, white,green);
     overflow: hidden;
 }
 
