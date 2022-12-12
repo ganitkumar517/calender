@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    place-items: center;
+    font-family: var(--font-family);
+    background:linear-gradient(orange, white,green);
+    overflow: hidden;
+}
+
+.body_calender{
+    margin-top: 135px;
+    margin-bottom: 20px;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+table{
+    margin-top: 10px;
+    margin-left: 470px;
+    text-align: center;
+    font-size: medium;
+    border: 2px solid black;
+}
+.tr{
+    padding: 12%;
+}
+
+form{
+    margin-top: 5px;
+    margin-left: 480px;
+}
+
+td{
+    padding: 2%;
+     border: 2px solid black;
+     font-size: x-large;
+}
+
+.btn_input{
+    font-size: large;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+button{
+    background-color: rgb(47, 47, 142);
+    color: white;
+    font-size: large;
+    padding: 15px;
+}
+.month{
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+}
+.year{
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    
+}
+.daysheader{
+    text-transform: uppercase;
+    margin-right: 10%;
+    padding: 10px 10px 10px 10px;
+    border: solid black 2px;
+}
+#cc{
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 5px;
+    bottom: 3px;
+    position: absolute;
+}
